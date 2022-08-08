@@ -54,4 +54,4 @@ if __name__ == "__main__":
     plot_regression_results(ax, y_test.values, y_pred,'LinearRegression test','MSE={:.2f} cm'.format(mean_squared_error(y_test,y_pred)),"BicepC")
     plt.tight_layout()
     plt.show()
-    # pass
+    pass
