@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def plot_regression_results(ax, y_true, y_pred, model_name, scores, bodypart):
+def plot_regression_results(ax, y_true: float, y_pred: float, model_name: str, scores: float, bodypart: str):
     """Scatter plot of the predicted vs true targets."""
     ax.plot([y_true.min(), y_true.max()],
             [y_true.min(), y_true.max()],
